@@ -32,7 +32,7 @@ namespace Authy.Model
             try
             {
                 Uri uri = new Uri(uriString);
-                if (uri.Host != "totp") throw new Exception("This URI is not totp format");
+                if (uri.Host != "totp") throw new Exception("This URI is not correct TOTP format.");
                 string[] label = uri.Segments[1].Split(':');
                 if (label.Length == 2)
                 {
