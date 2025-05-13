@@ -122,7 +122,9 @@
     <Compile Include="Controls\TOTPInfoControl.xaml.cs">
       <DependentUpon>TOTPInfoControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Account.cs" />
     <Compile Include="Model\TOTP.cs" />
+    <Compile Include="Model\VaultItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
